@@ -7,10 +7,9 @@ Client(config.keys, config, (err, ssbServer) => {
   if (err) throw err
 
   // console.log('methods', ssbServer)
-  ssbServer.whoami((err, id) => console.log('whoami', id))
+  // ssbServer.whoami((err, id) => console.log('whoami', id))
 
   // console.log(ssbServer.actualFriends)
 
-  ssbServer.counter.get(console.log)
+  // ssbServer.counter.get(console.log)
 })
-
