@@ -10,4 +10,6 @@ This is currently vapourware, not working code.
 
 ### 1. Learn and Prototype
 
-- [ ] See what it's like to process the entire scuttlebutt log into a flume view.
+- [X] See what it's like to process the entire scuttlebutt log into a flume view.
+- [ ] Collect the roots
+- [ ] Order the roots based on latest message received
