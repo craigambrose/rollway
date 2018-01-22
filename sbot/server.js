@@ -8,7 +8,7 @@ console.log('loading config:', config)
 console.log('*** installing ssb-server plugins ***')
 Server
   .use(require('scuttlebot/plugins/master'))
-  .use(require('../lib/plugin/rollway_plugin'))
+  .use(require('../lib/plugin'))
 
 console.log('*** starting ssb-server ***')
 const server = Server(config)
