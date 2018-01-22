@@ -18,3 +18,4 @@ console.log('*** updating manifest ***')
 // it's a list of methods that can be called remotely, without this code we won't be able to call our new plugin
 const manifest = server.getManifest()
 fs.writeFileSync(Path.join(config.path, 'manifest.json'), JSON.stringify(manifest))
+console.log('*** updating manifest complete ***')
