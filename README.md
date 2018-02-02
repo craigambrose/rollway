@@ -11,5 +11,7 @@ This is currently vapourware, not working code.
 ### 1. Learn and Prototype
 
 - [X] See what it's like to process the entire scuttlebutt log into a flume view.
-- [ ] Collect the roots
+- [X] Collect the roots
+- [ ] Try reducing to a Sqlite DB row by row
+- [ ] Try reducing in memory and then dumping to a sqlite DB?
 - [ ] Order the roots based on latest message received
